@@ -1,0 +1,104 @@
+
+.index {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+ 
+.index ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+ 
+  .index li {
+    margin: 0 15px;
+  }
+  
+  
+.index li a {
+    text-decoration: none;
+    color: #717070;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+  }
+  
+  
+  .index li a:hover {
+    border-bottom-color: gray;
+  }
+  
+  h2{
+    text-decoration: none;
+    color: #717070;
+    padding: 5% 10px;
+
+    transition: border-bottom-color 0.3s ease;
+  }
+
+  button {
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+    
+
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
+  input[type=text] {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  input[name= Mensaje] {
+    
+    height: 5cm;
+  }
+ 
+ img {
+    border-radius: 10%;
+    width: 25%;
+   margin: 10px;
+   filter: grayscale(100);
+  }
+
+  .titulo{
+    color: white;
+    padding: 10px;
+    background-color:grey;
+    opacity: 0.3;
+    height: fit-content
+    
+  }
+
+  .contacto{
+    color: white;
+    padding: 20px;
+    background-color: grey;
+    opacity: 0.4;
+    height: fit-content;
+    text-align: right;
+
+  }
+ 
+  .texto{
+    text-align: center;
+  }
+ 
